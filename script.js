@@ -28,3 +28,4 @@ function addImg(e) {
 
 colorBtn.onclick = changeColor;
 imgBtn.onclick = addImg;
+

@@ -1,7 +1,30 @@
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    'sans-serif';
+  background-color: lightblue;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 button {
-  padding: 10px;
+  padding: 15px;
   border: solid 1px black;
   border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    'sans-serif';
+  font-weight: bold;
+  font-size: medium;
 }
 
 #textBtn {
@@ -15,6 +38,7 @@ button {
 }
 
 #changingBox {
+  margin: 1rem;
   background-color: orange;
   width: 500px;
   height: 500px;
