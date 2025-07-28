@@ -20,12 +20,10 @@ function addImg(e) {
   e.preventDefault();
   if (!document.querySelector('img')) {
     let newImg = document.createElement('img');
-    newImg.src =
-      'https://cdn.pixabay.com/photo/2020/11/14/19/52/sasuke-5743769_1280.png';
+    newImg.src = '/sasuke.webp';
     changingBox.append(newImg);
   }
 }
 
 colorBtn.onclick = changeColor;
 imgBtn.onclick = addImg;
-
