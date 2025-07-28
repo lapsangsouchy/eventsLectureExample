@@ -20,7 +20,7 @@ function addImg(e) {
   e.preventDefault();
   if (!document.querySelector('img')) {
     let newImg = document.createElement('img');
-    newImg.src = '/sasuke.webp';
+    newImg.src = 'sasuke.webp';
     changingBox.append(newImg);
   }
 }
